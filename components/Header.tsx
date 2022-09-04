@@ -11,7 +11,7 @@ const Header = () => {
         />
         <div>
           <h1>Lottery DAPP</h1>
-          <p>User...</p>
+          <p className="text-xs text-emerald-500 truncate">User...</p>
         </div>
       </div>
     </div>
