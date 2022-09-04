@@ -10,7 +10,7 @@ const Header = () => {
           className="rounded-full h-20 w-20"
         />
         <div>
-          <h1>Lottery DAPP</h1>
+          <h1 className="font-bold text-lg text-white">Lottery DAPP</h1>
           <p className="text-xs text-emerald-500 truncate">User...</p>
         </div>
       </div>
