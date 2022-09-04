@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <div className="flex">
+      <div className="flex items-center space-x-2">
         <img
           src="https://avatars.githubusercontent.com/u/66319691?v=4"
           alt="User Image"
