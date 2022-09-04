@@ -10,6 +10,7 @@ const Header = () => {
       />
       <div>
         <h1>Lottery DAPP</h1>
+        <p>User...</p>
       </div>
     </div>
   );
