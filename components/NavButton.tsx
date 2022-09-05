@@ -1,7 +1,11 @@
 import React from "react";
 
-const NavButton = () => {
-  return <div>NavBtn</div>;
+interface Props {
+  title: string;
+}
+
+const NavButton = ({ title }: Props) => {
+  return <button>{title}</button>;
 };
 
 export default NavButton;

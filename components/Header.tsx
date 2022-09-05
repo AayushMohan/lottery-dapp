@@ -17,8 +17,8 @@ const Header = () => {
       </div>
       <div>
         <div className="bg-[#0A1F1C]">
-          <NavButton />
-          <NavButton />
+          <NavButton title="Buy Tickets" />
+          <NavButton title="Logout" />
         </div>
       </div>
     </div>
