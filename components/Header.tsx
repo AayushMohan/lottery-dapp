@@ -1,4 +1,5 @@
 import React from "react";
+import NavButton from "./NavButton";
 
 const Header = () => {
   return (
@@ -16,8 +17,8 @@ const Header = () => {
       </div>
       <div>
         <div className="bg-[#0A1F1C]">
-          {/* Button */}
-          {/* Button */}
+          <NavButton />
+          <NavButton />
         </div>
       </div>
     </div>
