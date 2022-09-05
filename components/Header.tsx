@@ -21,6 +21,7 @@ const Header = () => {
           <NavButton title="Logout" />
         </div>
       </div>
+      <div></div>
     </div>
   );
 };
