@@ -4,7 +4,7 @@ import { Bars3BottomRightIcon } from "@heroicons/react/24/solid";
 
 const Header = () => {
   return (
-    <div>
+    <div className="grid">
       <div className="flex items-center space-x-2">
         <img
           src="https://avatars.githubusercontent.com/u/66319691?v=4"
