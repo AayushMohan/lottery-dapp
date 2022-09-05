@@ -14,6 +14,12 @@ const Header = () => {
           <p className="text-xs text-emerald-500 truncate">User...</p>
         </div>
       </div>
+      <div>
+        <div className="bg-[#0A1F1C]">
+          {/* Button */}
+          {/* Button */}
+        </div>
+      </div>
     </div>
   );
 };
