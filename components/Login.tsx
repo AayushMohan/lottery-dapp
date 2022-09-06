@@ -10,6 +10,7 @@ const Login = () => {
           alt="AayushMohan Image"
         />
         <h1>THE LOTTERY DAPP</h1>
+        <h2>Get Started By Logging in with your MetaMask</h2>
       </div>
     </div>
   );
