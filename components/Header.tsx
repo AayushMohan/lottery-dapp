@@ -5,6 +5,7 @@ import { useAddress, useDisconnect } from "@thirdweb-dev/react";
 
 const Header = () => {
   const address = useAddress();
+  const disconnect = useDisconnect();
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-5 justify-between items-center p-5">
