@@ -13,6 +13,12 @@ import {
 const Home: NextPage = () => {
   const address = useAddress();
 
+  console.log(address);
+
+  if (!address) {
+    return <Login />;
+  }
+
   return (
     <div className="bg-[#091b1b] min-h-screen flex flex-col">
       <Head>
