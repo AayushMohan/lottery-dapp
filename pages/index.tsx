@@ -9,6 +9,7 @@ import {
   useContractData,
   useContractCall,
 } from "@thirdweb-dev/react";
+import Login from "../components/Login";
 
 const Home: NextPage = () => {
   const address = useAddress();
