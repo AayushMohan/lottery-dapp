@@ -1,8 +1,11 @@
 import React from "react";
 import NavButton from "./NavButton";
 import { Bars3BottomRightIcon } from "@heroicons/react/24/solid";
+import { useAddress, useDisconnect } from "@thirdweb-dev/react";
 
 const Header = () => {
+  const address = useAddress();
+
   return (
     <div className="grid grid-cols-2 md:grid-cols-5 justify-between items-center p-5">
       <div className="flex items-center space-x-2">
@@ -13,7 +16,10 @@ const Header = () => {
         />
         <div>
           <h1 className="font-bold text-lg text-white">LOTTERY DAPP</h1>
-          <p className="text-xs text-emerald-500 truncate">User...</p>
+          <p className="text-xs text-emerald-500 truncate">
+            User: {address?.substring(0, 5)}...
+            {address?.substring(address.length, address.length - 5)}
+          </p>
         </div>
       </div>
 
