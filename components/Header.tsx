@@ -27,14 +27,14 @@ const Header = () => {
       <div className="hidden md:flex md:col-span-3 justify-center rounded-md">
         <div className="bg-[#0A1F1C] p-4 rounded space-x-2">
           <NavButton isActive title="Buy Tickets" />
-          <NavButton title="Logout" />
+          <NavButton onClick={disconnect} title="Logout" />
         </div>
       </div>
       <div className="flex flex-col ml-auto text-right">
         <Bars3BottomRightIcon className="h-8 w-8 mx-auto text-white cursor-pointer" />
 
         <span className="md:hidden">
-          <NavButton title="Logout" />
+          <NavButton onClick={disconnect} title="Logout" />
         </span>
       </div>
     </div>
