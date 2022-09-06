@@ -23,7 +23,7 @@ const Home: NextPage = () => {
   return (
     <div className="bg-[#091b1b] min-h-screen flex flex-col">
       <Head>
-        <title>Create Next App</title>
+        <title>LOTTERY DAPP</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
