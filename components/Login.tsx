@@ -14,8 +14,9 @@ const Login = () => {
           Get Started By Logging in with your MetaMask
         </h2>
 
-        <button>Login With MetaMask</button>
-        {/*  */}
+        <button className="bg-white px-8 py-5 mt-10 rounded-lg shadow-lg font-bold">
+          Login With MetaMask
+        </button>
       </div>
     </div>
   );
