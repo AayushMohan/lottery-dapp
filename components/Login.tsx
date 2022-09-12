@@ -1,6 +1,8 @@
+import { useMetamask } from "@thirdweb-dev/react";
 import React from "react";
 
 const Login = () => {
+  const connectWithMetamask = useMetamask();
   return (
     <div className="bg-[#091B18] min-h-screen flex flex-col items-center justify-center text-center">
       <div className="flex flex-col items-center mb-10">
@@ -14,7 +16,10 @@ const Login = () => {
           Get Started By Logging in with your MetaMask
         </h2>
 
-        <button className="bg-white px-8 py-5 mt-10 rounded-lg shadow-lg font-bold">
+        <button
+          onClick={connectWithMetamask}
+          className="bg-white px-8 py-5 mt-10 rounded-lg shadow-lg font-bold"
+        >
           Login With MetaMask
         </button>
       </div>
