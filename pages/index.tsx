@@ -13,8 +13,22 @@ import Login from "../components/Login";
 
 const Home: NextPage = () => {
   const address = useAddress();
+  const { contract, isLoading } = useContract(
+    process.env.NEXT_PUBLIC_LOTTERY_CONTRACT_ADDRESS
+  );
 
   console.log(address);
+
+  if (isLoading) {
+    return (
+      <div>
+        <div>
+          <img src="https://i.imgur.com/4h7mAu7.com" alt="" />
+          <h1>Loading The LOTTERY DAPP</h1>
+        </div>
+      </div>
+    );
+  }
 
   if (!address) {
     return <Login />;
