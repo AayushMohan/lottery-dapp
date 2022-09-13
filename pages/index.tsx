@@ -24,7 +24,7 @@ const Home: NextPage = () => {
       <div className="bg-[#091B18] h-screen flex flex-col items-center justify-center">
         <div className="flex items-center space-x-2 mb-10">
           <img
-            src="https://i.imgur.com/4h7mAu7.com"
+            src="https://avatars.githubusercontent.com/u/66319691?v=4"
             alt=""
             className="rounded-full h-20 w-20"
           />
