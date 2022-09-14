@@ -10,6 +10,7 @@ import {
   useContractCall,
 } from "@thirdweb-dev/react";
 import Login from "../components/Login";
+import PropagateLoader from "react-spinners/PropagateLoader";
 
 const Home: NextPage = () => {
   const address = useAddress();
@@ -32,6 +33,7 @@ const Home: NextPage = () => {
             Loading The LOTTERY DAPP
           </h1>
         </div>
+        <PropagateLoader color="white" size={30} />
       </div>
     );
   }
