@@ -33,7 +33,7 @@ const Home: NextPage = () => {
             Loading The LOTTERY DAPP
           </h1>
         </div>
-        <PropagateLoader color="white" size={30} />
+        <PropagateLoader color="white" size={30} loading />
       </div>
     );
   }
