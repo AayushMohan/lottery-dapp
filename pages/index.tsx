@@ -40,9 +40,9 @@ const Home: NextPage = () => {
           </h1>
         </div>
         <div>
-          <div>
-            <h2>Total Pool</h2>
-            <p>0.1 ETH</p>
+          <div className="stack">
+            <h2 className="text-sm">Total Pool</h2>
+            <p className="text-xl">0.1 ETH</p>
           </div>
         </div>
       </div>
