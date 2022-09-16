@@ -40,6 +40,7 @@ const Home: NextPage = () => {
         <div>
           <div>
             <h2>Total Pool</h2>
+            <p>0.1 ETH</p>
           </div>
         </div>
       </div>
