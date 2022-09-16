@@ -35,7 +35,9 @@ const Home: NextPage = () => {
       {/* The Next Draw Box */}
       <div>
         <div>
-          <h1>The Next Draw</h1>
+          <h1 className="text-5xl text-white font-semibold text-center">
+            The Next Draw
+          </h1>
         </div>
         <div>
           <div>
