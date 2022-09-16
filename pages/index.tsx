@@ -31,6 +31,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+
+      {/* The Next Draw Box */}
+      <div>
+        <div></div>
+      </div>
     </div>
   );
 };
