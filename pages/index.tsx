@@ -43,6 +43,9 @@ const Home: NextPage = () => {
               <h2 className="text-sm">Total Pool</h2>
               <p className="text-xl">0.1 MATIC</p>
             </div>
+            <div className="stats">
+              <h2>Tickets Remaining</h2>
+            </div>
           </div>
         </div>
       </div>
