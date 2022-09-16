@@ -10,7 +10,7 @@ import {
   useContractCall,
 } from "@thirdweb-dev/react";
 import Login from "../components/Login";
-import PropagateLoader from "react-spinners/PropagateLoader";
+import Loading from "../components/Loading";
 
 const Home: NextPage = () => {
   const address = useAddress();
@@ -20,27 +20,9 @@ const Home: NextPage = () => {
 
   console.log(address);
 
-  if (isLoading) {
-    return (
-      <div className="bg-[#091B18] h-screen flex flex-col items-center justify-center">
-        <div className="flex items-center space-x-2 mb-10">
-          <img
-            src="https://avatars.githubusercontent.com/u/66319691?v=4"
-            alt=""
-            className="rounded-full h-20 w-20"
-          />
-          <h1 className="text-lg text-white font-bold ">
-            Loading The LOTTERY DAPP
-          </h1>
-        </div>
-        <PropagateLoader color="white" size={30} />
-      </div>
-    );
-  }
+  if (isLoading) return <Loading />;
 
-  if (!address) {
-    return <Login />;
-  }
+  if (!address) return <Login />;
 
   return (
     <div className="bg-[#091b1b] min-h-screen flex flex-col">
