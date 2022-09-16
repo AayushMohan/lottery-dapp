@@ -39,10 +39,10 @@ const Home: NextPage = () => {
             The Next Draw
           </h1>
         </div>
-        <div>
+        <div className="flex justify-between p-2 space-x-2">
           <div className="stack">
             <h2 className="text-sm">Total Pool</h2>
-            <p className="text-xl">0.1 ETH</p>
+            <p className="text-xl">0.1 MATIC</p>
           </div>
         </div>
       </div>
