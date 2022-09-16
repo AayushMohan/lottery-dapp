@@ -34,15 +34,15 @@ const Home: NextPage = () => {
 
       {/* The Next Draw Box */}
       <div>
-        <div>
+        <div className="stats-container">
           <h1 className="text-5xl text-white font-semibold text-center">
             The Next Draw
           </h1>
-        </div>
-        <div className="flex justify-between p-2 space-x-2">
-          <div className="stack">
-            <h2 className="text-sm">Total Pool</h2>
-            <p className="text-xl">0.1 MATIC</p>
+          <div className="flex justify-between p-2 space-x-2">
+            <div className="stack">
+              <h2 className="text-sm">Total Pool</h2>
+              <p className="text-xl">0.1 MATIC</p>
+            </div>
           </div>
         </div>
       </div>
