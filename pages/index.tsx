@@ -34,7 +34,14 @@ const Home: NextPage = () => {
 
       {/* The Next Draw Box */}
       <div>
-        <div></div>
+        <div>
+          <h1>The Next Draw</h1>
+        </div>
+        <div>
+          <div>
+            <h2>Total Pool</h2>
+          </div>
+        </div>
       </div>
 
       {/* The Price Per Ticket Box */}
