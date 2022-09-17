@@ -51,7 +51,9 @@ const Home: NextPage = () => {
       </div>
 
       {/* The Price Per Ticket Box */}
-      <div></div>
+      <div>
+        <div></div>
+      </div>
     </div>
   );
 };
